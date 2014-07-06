@@ -2,7 +2,7 @@ io-arduino
 ==========
 
 Some applications require to generate (or read) digital channels into the host-PC running the GUI.
-Most commonly, this happens when closed-loop experiments make use of event detection on the host PC, for example with the phase-detector plugin.
+Most commonly, this is needed when closed-loop experiments make use of event detection on the host PC, for example with the phase-detector plugin.
 
 The arduino shield for I/O from the host-pc can generate up to 8 channels of digital I/O.
 Each channel can be assigned as in or out and assigned to an event channel in the GUI.
